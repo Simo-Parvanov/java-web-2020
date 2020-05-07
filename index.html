@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SoftUni Courses</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.5.0.js"
+            integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <a href="#" class="float-right">
+        <img src="./images/logo.png" alt="SoftUni logo">
+    </a>
+    <h1>SoftUni Courses</h1>
+</header>
+<section class="row content-section">
+    <div class="offset-sm-2 col-sm-3 box">
+        <h2 class="text-center">Available Courses</h2>
+        <ul id="list-courses" class="list">
+        </ul>
+        <ul id="list-education-form" class="list list-horizontal list-education">
+        </ul>
+        <div class="text-center box-footer">
+            <button id="btn-submit" class="btn btn-primary">Submit me</button>
+        </div>
+
+    </div>
+    <div class="offset-sm-2 col-sm-3 box">
+        <h2 class="text-center">My Courses</h2>
+        <ul id="my-courses-list" class="list list-bulled">
+        </ul>
+        <div class="text-center box-footer">
+            Cost:
+            <span id="total-price">0.00</span>
+            BGN
+        </div>
+
+    </div>
+</section>
+<footer class="text-center">
+    <a href="https://softuni.bg" target="_blank">
+        <span> Go to SoftUni</span>
+    </a>
+</footer>
+<script src="./scripts/solution.js"></script>
+</body>
+</html>
